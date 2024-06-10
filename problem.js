@@ -35,7 +35,16 @@ const getMaxNumber = (arr1, arr2) => {
   const max = Math.max(...combineArray);
   return max;
 };
-const arr1 = [10, 20];
+const arr1 = [10, 20, 16, 5];
+const [a, b, ...c] = arr1;
+const obg = {
+  name: "sa",
+  age: 20,
+  phone: "dfdf",
+  addre: "mirpur",
+};
+const { name, phone, ...others } = obg;
+console.log(c, others);
 const arr2 = [80, 50];
+
 const maxNumber = getMaxNumber(arr1, arr2);
-console.log(maxNumber);
