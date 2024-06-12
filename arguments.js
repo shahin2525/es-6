@@ -19,3 +19,4 @@ const arguFunc = (para1, para2) => {
 console.log("2", hero1.partner);
 arguFunc(hero1, hero2);
 console.log("3", hero1.partner);
+// some inter view question
