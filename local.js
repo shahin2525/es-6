@@ -40,6 +40,5 @@ const displayLocalStorageData = () => {
     const quantity = savedData[product];
     displayProductData(product, quantity);
   }
-  //   console.log(savedData);
 };
 displayLocalStorageData();
